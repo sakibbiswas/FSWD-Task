@@ -11,7 +11,6 @@ const app = express();
 app.use(express.json());
 
 // MongoDB Connection
-
 const uri = `mongodb+srv://${process.env.db_users}:${process.env.db_pass}@cluster0.yk6uldw.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
